@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #333;
+    background-color: transparent;
+    height: 70px;
+}
+.logo{
+    font-size: 34px;
+    color: white;
+}
+.logo span{
+    color: green;
+}
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.navbar .icons {
+    display: flex;
+    gap: 10px;
+}
+.navbar .icons i {
+    color: white;
+    font-size: 30px;
+}
+/* Hero Section */
+.hero{
+    height: 100vh;
+    /* bg - img, repeat, position, size */
+    background: url(/images/1732733455984.jpg) no-repeat center center/cover;
+}
+.content{
+    color: white;
+}
+.pass {
+    color: aqua;
+}

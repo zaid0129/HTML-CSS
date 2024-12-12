@@ -1,0 +1,40 @@
+body {
+    /* background-color: rgb(85, 45, 78); */
+/* background-color: rgba(25, 75, 15, 12); */
+
+background-color:rgb(229, 135, 135);
+}
+.mypara{
+    background-color: darkmagenta;
+    color: blue;
+    font-size: 34px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 900;
+    /* uppercase, lowercase, capitalize */
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    /* border */
+    border-width: 60px;
+    /* solid, dotted, dashed */
+    border-style: dotted;
+    border-color: yellow;
+    /* Shorthand */
+        border: 15px dotted  red;
+        border-radius: 25px;
+}
+.new{
+    height: 200px;
+    border-top: 10px dotted green;
+    border-right: 20px dotted yellow;
+    border-bottom: 10px solid burlywood;
+    border-left: 10px solid orange;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}

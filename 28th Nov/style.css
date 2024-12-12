@@ -1,0 +1,18 @@
+/* Universal Secloctor */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ID Secloctor*/
+    #myheading {
+        background-color: aquamarine;
+        color: brown;
+    }
+    /* Class selector */
+    .common {
+        background-color: bisque;
+        color: blue;
+    }
+    .diff {
+        font-size: 20px;
+    }

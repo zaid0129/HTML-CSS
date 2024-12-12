@@ -1,0 +1,23 @@
+#mypara{
+    background-color: crimson;
+}
+#myheading {
+background-color: aquamarine;
+color: blueviolet;
+}
+div{
+    background-color: chartreuse;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid color(srgb red);
+}
+/* Nexted Selector */
+
+
+
+
+/* Multiple Selector */
+h1,
+p,

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=for, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Always use (post) tag this is more secure than (get)  -->
+    <form action="dem.js" method="post">
+        <div> 
+            <label for="msg"> Message </label><br>
+            <textarea name="" id=" msg" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="Vehicle"> Select car </label>
+            <input type="text" id="Vehicle" list="cars">
+            <datalist id="cars">
+                <option value="BMW"></option> 
+                <option value="Mercedes"></option> 
+                <option value="Audi"></option> 
+                <option value="tata"></option> 
+                <option value="Jaguar"></option> 
+                <option value="Land lover"></option> 
+
+            </datalist>
+        </div>
+        <!-- <button> type="sumbit"> Send</button> -->
+         <input type="submit" value="Send data ">
+         <input type="reset" value="reset now ">
+    </form>
+</body>
+</html>
